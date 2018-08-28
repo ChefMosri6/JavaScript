@@ -1,0 +1,18 @@
+'use strict'
+// Las diferentes tipos de array de este problema
+
+ var  TresCilindros = ["MINI Cooper Chili", "MINI Cooper Pepper", "MINI countryman chili", "MINI Clubman chili"];
+var  CuatroCilindros = ["MINI S salt", "MINI S chili", "MINI S hot chili", "MINI Jhon Cooper Works Hot Chili", "MINI countryman S chili", "MINI countryman S sport"];
+//Muestra todo los datos del Array.
+console.log(TresCilindros);
+// Agregar un elemento al array
+CuatroCilindros.push("JCW convertible");
+console.log(CuatroCilindros);
+// Buscar un elemento en el array\
+var indice = TresCilindros.indexOf('MINI countryman chili');
+console.log(indice);
+// Elimina los datos qye estan apartir de la segunda posicion.
+if (indice > 2);{
+TresCilindros.splice(indice, 2);
+}
+console.log(TresCilindros);
