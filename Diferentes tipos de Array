@@ -16,3 +16,7 @@ if (indice > 2);{
 TresCilindros.splice(indice, 2);
 }
 console.log(TresCilindros);
+// Convertir el Array en un string
+CuatroCilindros.join();
+console.log(CuatroCilindros);
+
