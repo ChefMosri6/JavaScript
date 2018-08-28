@@ -19,4 +19,9 @@ console.log(TresCilindros);
 // Convertir el Array en un string
 CuatroCilindros.join();
 console.log(CuatroCilindros);
+// Convertir un string en un array
+var BMW = "Bmw 118, Bmw I8, BMW I3"
+var BMW_array = BMW.split(",");
+console.log(BMW_array);
+
 
