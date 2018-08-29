@@ -23,5 +23,12 @@ console.log(CuatroCilindros);
 var BMW = "Bmw 118, Bmw I8, BMW I3"
 var BMW_array = BMW.split(",");
 console.log(BMW_array);
+// Funcion que ordena alfabeticamente el Array
+TresCilindros.sort();
+CuatroCilindros.sort();
+BMW_array.sort();
+console.log(TresCilindros);
+console.log(CuatroCilindros);
+console.log(BMW_array);
 
 
