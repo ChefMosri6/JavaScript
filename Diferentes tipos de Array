@@ -30,5 +30,8 @@ BMW_array.sort();
 console.log(TresCilindros);
 console.log(CuatroCilindros);
 console.log(BMW_array);
+// encontrar un dato en el Array con el metodo de flechas.
+var busqueda = CuatroCilindros.find(CuatroCilindros => CuatroCilindros == "hola");
+console.log(busqueda);
 
 
